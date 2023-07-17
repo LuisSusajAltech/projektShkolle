@@ -1,0 +1,39 @@
+{
+	"scripts": {
+		"start": "webpack serve",
+		"build": "webpack --silent ",
+		"lint": "eslint --ext .jsx,.js src/"
+	},
+	"dependencies": {
+		"@chakra-ui/react": "^1.8.6",
+		"@emotion/react": "^11.9.0",
+		"@emotion/styled": "^11.8.1",
+		"@fontsource/poppins": "^4.5.8",
+		"firebase": "^9.15.0",
+		"framer-motion": "^6.3.4",
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2",
+		"react-event-observer": "^0.5.11",
+		"react-icons": "^4.3.1",
+		"react-router-dom": "^6.2.2",
+		"react-select": "^5.7.0",
+		"react-slick": "^0.29.0",
+		"react-table": "^7.8.0"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.18.2",
+		"@babel/preset-env": "^7.18.2",
+		"@babel/preset-react": "^7.17.12",
+		"@svgr/webpack": "^6.2.1",
+		"babel-loader": "^8.2.5",
+		"copy-webpack-plugin": "^11.0.0",
+		"css-loader": "^6.7.1",
+		"eslint": "^8.16.0",
+		"eslint-plugin-react": "^7.30.0",
+		"html-webpack-plugin": "^5.5.0",
+		"style-loader": "^3.3.1",
+		"webpack": "^5.72.1",
+		"webpack-cli": "^4.9.2",
+		"webpack-dev-server": "^4.9.0"
+	}
+}
